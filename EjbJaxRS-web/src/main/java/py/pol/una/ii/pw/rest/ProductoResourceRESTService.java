@@ -58,7 +58,7 @@ import py.pol.una.ii.pw.service.ProductoRegistration;
  */
 @Path("/productos")
 @RequestScoped
-public class ProductoResourceRESTService {
+public class ProductoResourceRESTService{
 	@Inject
 	private Logger log;
 
@@ -95,7 +95,7 @@ public class ProductoResourceRESTService {
 
 					ObjectMapper om = new ObjectMapper();
 					
-					Integer cantidad = 3; // 100
+					Integer cantidad = 100; // 3 para pruebas
 					
 					w.write("[");
 					Integer leidos = cantidad;

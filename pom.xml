@@ -33,9 +33,9 @@
         </license>
     </licenses>
     <modules>
-        <module>ejb</module>
-        <module>web</module>
-        <module>ear</module>
+        <module>EjbJaxRS-ejb</module>
+        <module>EjbJaxRS-web</module>
+        <module>EjbJaxRS-ear</module>
     </modules>
 
     <properties>
